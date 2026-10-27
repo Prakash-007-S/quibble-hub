@@ -1,0 +1,50 @@
+# Environment files
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# PostgreSQL local cluster
+.postgres_data/
+
+# Application storage
+uploads/*
+!uploads/.gitkeep
+
+# Flutter & Dart
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+frontend/build/
+frontend/.dart_tool/
+
+# Android build outputs
+frontend/android/.gradle
+frontend/android/local.properties
+frontend/android/app/build/
+**/GeneratedPluginRegistrant.java
+
+# IDE & Editor artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
